@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pwLNpquWQ58=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\O_heneba\\source\\repos\\dcit318-assignment1-22047235\\TicketPriceCalculator\\TicketPriceCalculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\O_heneba\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.28\\microsoft.netcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\O_heneba\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.28\\microsoft.windowsdesktop.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\O_heneba\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.28\\microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\O_heneba\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.28\\microsoft.netcore.app.host.win-x64.8.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}
