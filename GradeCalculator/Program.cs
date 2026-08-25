@@ -1,0 +1,51 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Ask for a numerical grade
+        Console.Write("Enter your grade (0-100): ");
+        string? input = Console.ReadLine();
+
+        // Try to convert the input to an integer
+        if (!int.TryParse(input, out int grade))
+        {
+            Console.WriteLine("Invalid input. Please enter a whole number between 0 and 100.");
+            return;
+        }
+
+        // Validate range
+        if (grade < 0 || grade > 100)
+        {
+            Console.WriteLine("Grade must be between 0 and 100.");
+            return;
+        }
+
+        // Determine letter grade using if / else if / else
+        char letter;
+        if (grade >= 90)
+        {
+            letter = 'A';
+        }
+        else if (grade >= 80)
+        {
+            letter = 'B';
+        }
+        else if (grade >= 70)
+        {
+            letter = 'C';
+        }
+        else if (grade >= 60)
+        {
+            letter = 'D';
+        }
+        else
+        {
+            letter = 'F';
+        }
+
+        // Display result
+        Console.WriteLine($"Grade: {letter}");
+    }
+}
